@@ -1,0 +1,92 @@
+-- phpMyAdmin SQL Dump
+-- version 5.2.1
+-- https://www.phpmyadmin.net/
+--
+-- Host: 127.0.0.1
+-- Generation Time: May 16, 2025 at 09:44 AM
+-- Server version: 8.0.39
+-- PHP Version: 8.2.4
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Database: `naturalpark_database`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `password_reset_tokens`
+--
+
+CREATE TABLE `password_reset_tokens` (
+  `id` bigint NOT NULL,
+  `user_id` int DEFAULT NULL,
+  `token_hash` char(64) COLLATE utf8mb4_general_ci DEFAULT NULL,
+  `expires_at` datetime DEFAULT NULL,
+  `used_at` datetime DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `password_reset_tokens`
+--
+
+INSERT INTO `password_reset_tokens` (`id`, `user_id`, `token_hash`, `expires_at`, `used_at`) VALUES
+(1, 2, '013b5b3a1f66a8d74921d20e094cad55f558b9a5f582aba500ee8ac23299570c', '2025-05-07 16:40:37', NULL),
+(2, 2, 'fad8e4aab64ba31fadd974aefa47835ded7e307162c053bec1b0c4b7fb3601cf', '2025-05-07 16:51:52', NULL),
+(3, 2, 'f15b70fe5c01b0caad43156748028f571698a1aad69e7eb731afc58191d06db7', '2025-05-07 16:55:44', NULL),
+(4, 2, 'b3d146d01d6fa50afa1954210b4956fdb046a4d279353f7f6ca42719aac9f593', '2025-05-07 16:56:38', NULL),
+(5, 2, 'b7c2f4325f3ff64eaa6e20d246dee873848c78f9f8bd061b6ecaeec025c73a7e', '2025-05-07 16:58:18', NULL),
+(6, 2, 'e6c5f3de5b9b10bf9062f009386c31c3abbf456a6f60ef500efd5c9772e37a5e', '2025-05-07 16:58:22', NULL),
+(7, 2, 'ae879085428bd276733111644f2230b9739b785d17238a1b1c657b4ae7d45b68', '2025-05-07 16:59:47', NULL),
+(8, 2, '4c2202c1b4e42f3f7e251742dbe1fc5ff0c3d1d2634eb5cfa3353365a73f940e', '2025-05-07 16:59:59', NULL),
+(9, 2, '91635ff20fda9a3fb5fbdf807f6f533fd53e60838cc53f0c43d8d2c9de40328a', '2025-05-07 17:00:42', NULL),
+(10, 2, 'e7637446a4abb933a430054e386004a0296c6e89d9ac19057a7af7a717aa083c', '2025-05-07 17:04:52', NULL),
+(11, 2, '6383d6beea6aca8445cd232cc1f88504d3d2ff16f34d842e33fb8c57a1d6fd6d', '2025-05-07 17:13:02', '2025-05-07 16:58:19'),
+(12, 3, 'fbbd80a4deb6750d0df5150c65119bb40fa76c315380dd883fa91f18a9a56135', '2025-05-08 14:00:46', '2025-05-08 13:47:43'),
+(13, 2, '28b3446c82c2bfcd50a33f64b6adb7695b8e79dab1845aedc3cb78941fe5a8fd', '2025-05-08 14:03:11', '2025-05-08 13:48:28'),
+(14, 2, '1325268a4b6140d3851d256631b073f90805216793be52df62e7ba25c6b7927b', '2025-05-08 18:57:03', NULL),
+(15, 2, '9535689078aeae21e0bd0b2344b55000041715d7b3a2c73743c50c9a2a6a9fbd', '2025-05-08 23:28:02', NULL),
+(16, 2, '5aab238486aee38c957d7f96801e0b9e980d690d082cb03f2d0a5edb2166b04f', '2025-05-08 23:28:18', NULL),
+(17, 4, 'd65439768a0c6909ef44f6c8ead55ec40b98c790e4b92019fbfbbbb5b495cb60', '2025-05-09 15:23:47', '2025-05-09 15:09:29'),
+(18, 4, '96e0d9413110cdc3c454438dad5b493c2c87b7eeedcd66bd18060b32dc04754b', '2025-05-09 15:24:44', '2025-05-09 15:10:18'),
+(19, NULL, '8fded8203cd12f00e3b6828a1411c2dbe236ee47a5e3c5592893e8f841ee8fc2', '2025-05-10 17:17:06', NULL),
+(20, NULL, 'ce43c12478675935180a3a88d649b3371a30c5d1754b33aa4139e1f4c34e3751', '2025-05-10 17:19:13', NULL),
+(21, NULL, 'f6a64a8e1292e6e975f1a5fd246933f0dac952aafaa12a0345bd8061deff8205', '2025-05-10 17:24:48', NULL),
+(22, 14, '9897da0cd2ab66e9d357cbfedc4b065dd0fed3955c72f6f4a1596627d8b6968a', '2025-05-10 17:27:49', '2025-05-10 17:14:04'),
+(23, 12, '74037f3891311c9d621d9c651530c7df5c076865a5fa884ec72a515f7f6da153', '2025-05-10 21:05:06', '2025-05-10 20:50:35'),
+(24, 12, '9fe7c1970c3cc5b1c567484c3c33c59b2068ad3d276d240052670be92881128f', '2025-05-10 23:26:57', '2025-05-10 23:12:18'),
+(25, 17, '376e94e8f96b8eb82668c213176b9ef83d013d745527acaad5f49b438e0b0ed0', '2025-05-14 08:31:24', '2025-05-14 08:16:44');
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `password_reset_tokens`
+--
+ALTER TABLE `password_reset_tokens`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `password_reset_tokens`
+--
+ALTER TABLE `password_reset_tokens`
+  MODIFY `id` bigint NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

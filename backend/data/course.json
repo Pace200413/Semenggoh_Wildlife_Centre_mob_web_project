@@ -1,0 +1,227 @@
+[
+  {
+    "id": "1747150740630",
+    "courseTitle": "Love Yourself",
+    "courseDescription": "Chill down and don't be stressed",
+    "duration": "2 weeks",
+    "price": "25",
+    "schedule": [
+      "Wed",
+      "5pm"
+    ],
+    "skillLevel": "Junior Guide",
+    "requiredFor": "Senior Guide",
+    "capacity": 25,
+    "lecturer": "Prof. KniHed",
+    "learningOutcome": "Problem-solving",
+    "assessments": [
+      {
+        "question": "WHat",
+        "options": [
+          "244",
+          "322"
+        ],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "1747150950787",
+    "courseTitle": "GO",
+    "courseDescription": "gg",
+    "duration": "2 weeks",
+    "price": "112",
+    "schedule": [
+      "Fri",
+      "5pm-7pm"
+    ],
+    "skillLevel": "Junior Guide",
+    "requiredFor": "Senior Guide",
+    "capacity": 30,
+    "lecturer": "Prof",
+    "learningOutcome": "Apply knowledge",
+    "assessments": [
+      {
+        "question": "WHat",
+        "options": [
+          "233",
+          "322"
+        ],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "1747196696083",
+    "courseTitle": "Hello",
+    "courseDescription": "This is hello world",
+    "duration": "1 week",
+    "price": "50",
+    "schedule": [
+      "Wed",
+      "3pm - 5pm"
+    ],
+    "skillLevel": "Senior",
+    "requiredFor": "Junior Guide",
+    "capacity": 50,
+    "lecturer": "Prof. Hel",
+    "learningOutcome": "Problem-solving",
+    "assessments": [
+      {
+        "question": "Good taday?",
+        "options": [
+          "yeah",
+          "nope"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "question": "Who is this?",
+        "options": [
+          "Me, mario!",
+          "Pikachu"
+        ],
+        "correctIndex": null
+      }
+    ]
+  },
+  {
+    "id": "1747212437501",
+    "courseTitle": "Introduction to Wildlife",
+    "courseDescription": "wildlife is good. wildlife is great.",
+    "duration": "5 weeks",
+    "price": "50",
+    "schedule": [
+      "Thu",
+      "2pm - 6pm"
+    ],
+    "skillLevel": "Senior",
+    "requiredFor": "Master",
+    "capacity": 50,
+    "lecturer": "Prof. Nature",
+    "learningOutcome": "Understand basics",
+    "assessments": [
+      {
+        "question": "What is wildlife?",
+        "options": [
+          "Animals/Plants in wild",
+          "airplane"
+        ],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "1747212829914",
+    "courseTitle": "Course Test",
+    "courseDescription": "testing",
+    "duration": "1 week",
+    "price": "236",
+    "schedule": [
+      "Wed",
+      "5pm - 6pm"
+    ],
+    "skillLevel": "Master",
+    "requiredFor": "Master",
+    "capacity": 20,
+    "lecturer": "Prof. Good",
+    "learningOutcome": "Problem-solving",
+    "assessments": [
+      {
+        "question": "Test 1",
+        "options": [
+          "y",
+          "n"
+        ],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "1747213107500",
+    "courseTitle": "Let see",
+    "courseDescription": "See through",
+    "duration": "2 weeks",
+    "price": "22",
+    "schedule": [
+      "Mon-Wed-Fri",
+      "3pm-5pm"
+    ],
+    "skillLevel": "Junior Guide",
+    "requiredFor": "Junior Guide",
+    "capacity": 33,
+    "lecturer": "Prof. Tes",
+    "learningOutcome": "Apply knowledge",
+    "assessments": [
+      {
+        "question": "1+1=?",
+        "options": [
+          "2",
+          "33"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "question": "2+2=?",
+        "options": [
+          "22",
+          "4",
+          "5"
+        ],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "1747213632079",
+    "courseTitle": "2",
+    "courseDescription": "2",
+    "duration": "2 weeks",
+    "price": "50",
+    "schedule": [
+      "Mon",
+      "1pm-2pm"
+    ],
+    "skillLevel": "Master",
+    "requiredFor": "Master",
+    "capacity": 20,
+    "lecturer": "Prof. 55",
+    "learningOutcome": "Certification ready",
+    "assessments": [
+      {
+        "question": "2?",
+        "options": [
+          "2",
+          "2!"
+        ],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "1747583586140",
+    "courseTitle": "New Course",
+    "courseDescription": "course towards master",
+    "duration": " 5 weeks",
+    "price": "500",
+    "schedule": [
+      "Mon 5pm-7pm"
+    ],
+    "skillLevel": "Master",
+    "requiredFor": "Master",
+    "capacity": 49,
+    "lecturer": "Prof. Pro",
+    "learningOutcome": "Problem-solving",
+    "assessments": [
+      {
+        "question": "How to be a master?",
+        "options": [
+          "Be strong",
+          "Be clever",
+          "Be responsible"
+        ],
+        "correctIndex": 2
+      }
+    ]
+  }
+]

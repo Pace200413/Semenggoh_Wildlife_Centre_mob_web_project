@@ -1,0 +1,37 @@
+# OS / editors
+.DS_Store
+*.log
+*.tmp
+*.swp
+.vscode/
+.idea/
+
+# Node / web
+node_modules/
+dist/
+build/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Java/Gradle/Maven
+target/
+out/
+bin/
+.gradle/
+*.class
+
+# Secrets
+.env
+*.env
+.env.*
+secrets/
+keys/
+*service-account*.json
+*_sa.json
+*_key.json
+*.pth
+*.pth
